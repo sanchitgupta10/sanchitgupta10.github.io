@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Mali', cursive;
+  font-family: 'Roboto', sans-serif;
+}
+
 .menu-container {
   color: #fff;
   background: transparent;
@@ -18,12 +23,16 @@
   justify-content: space-between;
 }
 
+.logo{
+  height: 60px;
+}
+
 .links{
   display: flex;
   justify-content: flex-end;
 }
 
-.login {
+.resume {
   margin-left: 20px;
 }
 
@@ -32,55 +41,8 @@
 }
 
 .parallax-one {
-    /* The image used */
-    background-image: url('../images/bg1.png');
-
-    /* Full height */
+    background-image: url('../images/bg2.jpg');
     height: 700PX; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-two {
-    /* The image used */
-    background-image: url('../images/bg2.png');
-
-    /* Full height */
-    height: 700PX; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-three {
-    /* The image used */
-    background-image: url('../images/bg3.png');
-
-    /* Full height */
-    height: 700PX; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-four {
-    /* The image used */
-    background-image: url('../images/bg4.png');
-
-    /* Full height */
-    height: 700PX; 
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -88,15 +50,31 @@
 }
 
 .my-info{
-    padding-top: 100px;
+  padding-top: 15rem;
+  color: #fff;
 }
 
-.card{
-  display: flex;
-  justify-content: center;
-  background: rgba(255,255,255,0.5);
+.my-info .hello-world{
+  color: #DC143C;
 }
 
-.my-avatar{
-  height: 150px;
+.my-info h1{
+  color: #fff;
+}
+.my-info .designation{
+color: #70f4c8;
+}
+
+.avatar{
+    height: 8rem;
+    width: auto;
+    border-radius: 5rem;
+    border: 2px #fff solid;
+}
+
+.more-about-me{
+  padding: 10px 30px;
+  background: none;
+  color: #fff;
+  border: 2px #fff solid;
 }
